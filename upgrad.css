@@ -1,0 +1,178 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    
+
+        font-family: "Montserrat";
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    i{
+        color: rgb(238, 44, 60);
+    }
+.container{
+    display: flex;
+    justify-content: left;
+    margin: 40px 36.4px;
+    padding: 0 100px;
+    width: 1240px;
+}
+/* body{
+    background: rgb(39, 39, 39);
+} */
+.learn{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+.learn h4{
+    margin-bottom: 12px;
+    color: #C5135d;
+    font-weight: bold;
+}
+.learn p{
+    margin-top: 8px;
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+    width: 730px;
+    line-height: 25px;
+
+}
+.learn h2 {
+    font-size:xx-large;
+    font-weight: bold;
+}
+.learn h2 span{
+    font-weight: bold;
+    /* background-image: linear-gradient(132deg, 238, 44, 60, 14.5); */
+    background: linear-gradient(to right, red, blue );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.inside-learn{
+    margin-top: 20px;
+    margin-bottom: 13px;  
+}
+/* ==============================================*/
+.middle-inside{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    box-shadow: 0px 0px 40px #e7dfdf;
+    border-radius: 10px;
+    padding: 13px 10px;
+
+    
+}
+.a200  h2{
+    font-weight: bold;
+}
+.middle-inside span{
+    font-weight: bold;
+    color: #6A11B0;   
+    
+}
+/* ==================================================== */
+
+.box{
+    display: flex;
+}
+.outerUpperBox{
+    height: 400px;
+    width: 380px;
+    /* border: 1px solid #000; */
+    box-shadow: 0px 0px 30px #dcd3d3;
+    border-radius: 10px;
+    border-radius: 20px;
+    margin: 0 10px;
+    
+}
+.upperBox{
+    background-color: rgb(125, 178, 211);
+    border-radius: 20px 20px 0 0;
+    /* padding: 0 10px; */
+    padding: 20px;
+    height: 144px;
+    
+}
+.upperBox .box-title h2{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.belowBox{
+    padding: 20px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.belowBox .B-upper h4{
+
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.B-upper{
+    width: 358px;
+    margin-bottom: 25px;
+}
+.B-desc{
+    padding-bottom: 15px;
+    display: flex;
+}
+.B-desc h5{
+    font-weight: bold;
+    font-size: 15px;
+}
+.B-desc i{
+    margin-right: 10px;
+}
+.info i{
+    padding-right: 10px;
+}
+.title-desc .info{
+    display: flex;
+    margin-bottom: 9px;
+}
+/* Below */
+.B-title h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.B-lower{
+    height: 49px;
+    /* width: 358px; */
+    border: 1px solid silver;
+   padding: 12px 24px;
+   border-radius: 10px;
+   text-align: center;
+}
+.B-lower:hover{
+    border: 1.2px solid #000;
+}
+.B-lower h3{
+    font-weight: bold;
+
+}
+.download button{
+    height: 44px;
+    width: 280px;
+    background-color: rgb(238, 44, 60);
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+}
+.carosel .download{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.download button:hover{
+    background-color: rgb(234, 95, 106);
+}
+/* 39 gatt numbr */
